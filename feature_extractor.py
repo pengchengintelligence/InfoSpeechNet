@@ -49,9 +49,6 @@ class AudioTextFeatureExtractor(nn.Module):
 
         self.eval()
 
-    # def get_wav_processor(self):
-    #     return self.wav2vec_processor
-
     def get_bert_tokenizer(self):
         return self.bert_tokenizer
 
