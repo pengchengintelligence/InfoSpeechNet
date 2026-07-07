@@ -29,7 +29,6 @@ SEED    = 43
 
 
 def extract_and_save_features(dataloader, model, save_dir):
-    """Implementation details are provided by the code below."""
     model.eval()
     os.makedirs(save_dir, exist_ok=True)
 
@@ -56,7 +55,6 @@ def extract_and_save_features(dataloader, model, save_dir):
 
 
 def build_dataloader_from_df(df: pd.DataFrame, indices, bert_dir: str) -> DataLoader:
-    """Implementation details are provided by the code below."""
     dataset = ADDataset(
         df=df,
         bert_model=bert_dir,
