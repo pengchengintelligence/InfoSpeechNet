@@ -8,8 +8,6 @@ from transformers import (
 )
 
 class AudioTextFeatureExtractor(nn.Module):
-    """Implementation details are provided by the code below."""
-
     def __init__(
         self,
         wav2vec_dir: str = "../../wavlm-large",
