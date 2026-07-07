@@ -66,7 +66,7 @@ The proposed method has not been approved as a clinical diagnostic tool and shou
 
 ## Acknowledgments
 
-This work was developed at **The Hong Kong Polytechnic University**.
+This work was developed at The Hong Kong Polytechnic University.
 
 We sincerely thank all dataset providers, participants, and collaborators for making this research possible.
 
