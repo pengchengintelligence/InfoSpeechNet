@@ -6,6 +6,12 @@ The complete source code and related resources will be publicly released upon ac
 
 ---
 
+## Supplementary Information
+
+Supplementary information for this manuscript is available in the file [Supplementary_Information_InfoSpeechNet.pdf](./Supplementary_Information_InfoSpeechNet.pdf).
+
+---
+
 ## Code and Data Availability
 
 The datasets used in this study are publicly available from their respective data providers under specific access requirements and data-use agreements.
