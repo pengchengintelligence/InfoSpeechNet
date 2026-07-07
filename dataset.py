@@ -16,7 +16,6 @@ class ADDataset(Dataset):
         indices=None,
         df=None,
     ):
-        """Implementation details are provided by the code below."""
         self.max_audio_length = max_audio_length
 
 
@@ -48,7 +47,6 @@ class ADDataset(Dataset):
         return len(self.labels)
 
     def _build_paths(self, split: str):
-        """Implementation details are provided by the code below."""
         audio_dir = os.path.join("../../data1", split, f"{split}_16k")
         transcript_dir = os.path.join("../../data1", split, f"{split}_transcriptions")
         if not os.path.isdir(audio_dir):
