@@ -6,7 +6,6 @@ from torch.utils.data import Dataset
 
 class PreprocessedDataset(Dataset):
     def __init__(self, split_name, features_root="./extracted_features_5fold", fold=None):
-        """Implementation details are provided by the code below."""
         if fold is not None and split_name in ("train", "val"):
 
             self.features_dir = os.path.join(features_root, f"fold{fold}", split_name)
